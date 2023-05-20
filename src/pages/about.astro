@@ -1,4 +1,6 @@
 ---
+import '../styles/global.css'
+
 const pageTitle = "About Me";
 
 const identity = {
@@ -16,7 +18,7 @@ const goal = 3;
 
 const skillColor = "navy";
 const fontWeight = "bold";
-const textCase = "";
+const textCase = "uppercase";
 
 ---
 
@@ -33,6 +35,7 @@ const textCase = "";
       .skill {
         color: var(--skillColor);
         font-weight: var(--fontWeight);
+        text-transform: var(--textCase);
  }
     </style>
   </head> 
